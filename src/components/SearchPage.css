@@ -1,0 +1,139 @@
+
+
+.movie__container{
+    display: flex;
+    width:calc(100%/3);
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:40px;
+    transition: 200ms ease-in-out;
+
+}
+
+.movie__container:hover{
+    scale: 1.05;
+}
+
+
+
+.movie__card--container{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+
+
+.movie__description{
+    width:300px;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie__poster{
+    border-bottom:none;
+    width:300px;
+    height:450px;
+}
+
+.movie__title{
+    font-weight:500;
+    margin-top:5px;
+    width:100%;
+    max-width:300px;
+    font-size:25px;
+    color:#d3d3d3
+}
+
+.movie__year{
+    width:100px;
+    text-align:right;
+}
+
+
+
+.movies{
+    display: flex;
+    flex-direction: column;
+    background-color:#404040;
+        
+}
+
+.searchPage__searchBar--container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0 50px 0;
+}
+
+.movie__poster{
+    transition: 300ms ease;
+}
+
+.movie__poster:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.movieNotFound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notFound__img{
+    padding:80px 0 20px 0;
+}
+
+.notFound__txt{
+    font-size: 25px;
+    font-weight:500;
+    color: #a9b9ff;
+    padding-bottom:214px;
+}
+
+.spinner__container{
+    height: 657.666px;
+    display: flex;
+}
+
+.spinner{
+    font-size:30px;
+    color:white;
+    animation: rotate 1000ms infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .movie__container{
+        width:calc(100%/2.2);
+    
+    }
+}
+
+@media only screen and (max-width:950px){
+    .searchPage__searchBar--container{
+        margin-bottom:0px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .movie__container{
+        width:calc(100%)
+    }
+}
