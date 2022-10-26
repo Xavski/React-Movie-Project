@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useStateValue } from "../StateProvider";
 import "./SearchPage.css";
 import SearchBar from "./ui/SearchBar";
-import UseMovieSearch from "./useMovieSearch";
 import SearchNotFound from "../assets/SearchNotFound.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";

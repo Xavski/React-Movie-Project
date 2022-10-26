@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import SearchBar from "./ui/SearchBar";
 import "./Landing.css";
 import HorrorMovie from "../assets/HorrorMovie.svg";
