@@ -15,7 +15,7 @@ const DescriptionPage = () => {
   useEffect(() => {
     async function fetchDescription() {
       const { data } = await axios
-        .get(`http://www.omdbapi.com/?i=${movieId.id}&apikey=451ac588`)
+        .get(`https://www.omdbapi.com/?i=${movieId.id}&apikey=451ac588`)
         .then();
       setId(data);
       setLoading(false)
