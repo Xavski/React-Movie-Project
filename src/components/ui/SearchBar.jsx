@@ -23,7 +23,7 @@ function SearchBar() {
 
   return (
     <form>
-      <div className="searchBar">
+      <div className="searchBar landing__searchBar">
         <div className="searchBar__wrap">
           <input
             type="text"

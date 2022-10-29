@@ -24,7 +24,7 @@ const Landing = () => {
               Unlimited <span className="color">Freedom.</span>
             </div>
             <div className="search__container">
-              <SearchBar />
+              <SearchBar className='landing__searchBar'/>
             </div>
           </div>
               <div className="landing__img--container">
