@@ -7,9 +7,9 @@ import { StateProvider } from "./StateProvider";
 import reducer, { initialState } from "./reducer";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCalendar, faClock } from "@fortawesome/free-regular-svg-icons"
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faCalendar, faClock, faSearch)
+library.add(faCalendar, faClock, faSearch, faBars, faTimes)
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
